@@ -43,8 +43,10 @@ public class Ejercicio10 {
 		resto=resto%2;
 		
 		m1c= resto%2;
-		
+	
+		System.out.println("-----------------------");
 		System.out.println("El cambio es " + cambio);
+		System.out.println("-----------------------");
 		System.out.println(m2 + " monedas de 2");
 		System.out.println(m1 + " monedas de 1");
 		System.out.println(m50 + " monedas de 50c");
@@ -54,8 +56,8 @@ public class Ejercicio10 {
 		System.out.println(m2c+ " monedas de 2c");
 		System.out.println(m1c+ " monedas de 1c");
 		System.out.println("-----------------------");
-		System.out.println(decimal+ " decimal");
-		System.out.println(ent+ " entero");
+	/*	System.out.println(decimal+ " decimal");
+		System.out.println(ent+ " entero");*/
 		
 	}
 
